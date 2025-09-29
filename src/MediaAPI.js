@@ -1,4 +1,4 @@
-const BASE_URL = import.meta.env.VITE_API_BASE;
+const BASE_URL = import.meta.env.VITE_API_URL;
 
 // A simple function to simulate network delay
 const delay = (ms) => new Promise((res) => setTimeout(res, ms));
